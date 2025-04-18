@@ -42,7 +42,7 @@ pipeline {
         stage('Deploy to Azure') {
             steps {
                 withCredentials([azureServicePrincipal(
-                    credentialsId: 'azure-service-principal',
+                    credentialsId: 'azure-service-principal-02',
                     subscriptionIdVariable: 'AZURE_SUBSCRIPTION_ID',
                     clientIdVariable: 'AZURE_CLIENT_ID',
                     clientSecretVariable: 'AZURE_CLIENT_SECRET',
