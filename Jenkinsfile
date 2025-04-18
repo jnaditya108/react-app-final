@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Hardikgaur21/React-Jenkin-App.git'
+                git branch: 'main', url: 'https://github.com/jnaditya108/react-app-final.git'
             }
         }
 
